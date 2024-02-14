@@ -1,0 +1,73 @@
+
+.container5 {
+  background-color: #ffffff;
+  color: #555;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.h11 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.custom-card {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 15px;
+  transition: background-color 0.3s;
+}
+
+/* .accordion-button[aria-expanded="true"] {
+  background-color: #fff;
+  border: 5px solid #ffc107;
+  color: #000;
+} */
+
+.custom-card:hover {
+  background-color: #f8f9fa;
+}
+
+.accordion {
+  width: 100%;
+  background: transparent;
+  padding: 20px;
+}
+
+.accordion-item {
+  background: #ffcf07;
+  border: none;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1), -2px -2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-body {
+  background: #fff;
+  font-size: 1rem;
+}
+
+.accordion-button {
+  font-size: 1rem;
+  background: transparent;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.accordion-button:not(.collapsed) {
+  background: rgba(0, 0, 0, 0.1);
+  color: black;
+  box-shadow: none;
+}
